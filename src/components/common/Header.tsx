@@ -156,11 +156,11 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           {/* Logo & Temple Title */}
           <a href="#home" className="flex items-center gap-3.5 group text-left">
-            <div className="relative w-11 h-11 sm:w-12 sm:h-12 rounded-2xl bg-amber-50 border border-amber-200/80 p-1 shadow-xs group-hover:shadow-md transition-all duration-300 shrink-0">
+            <div className="relative w-11 h-11 sm:w-12 sm:h-12 rounded-full overflow-hidden bg-amber-50 border-2 border-amber-300 p-0.5 shadow-sm group-hover:scale-105 group-hover:border-amber-400 group-hover:shadow-md transition-all duration-300 shrink-0">
               <img 
-                src="/favicon.svg" 
-                alt="Manalyarkavu Nilavilakku" 
-                className="w-full h-full object-contain filter drop-shadow-xs"
+                src="/favicon.png" 
+                alt="Sree Bhagavathy" 
+                className="w-full h-full object-cover rounded-full"
               />
             </div>
 

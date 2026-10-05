@@ -395,7 +395,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
               >
                 {/* Receipt Header */}
                 <div className="border-b border-slate-200 pb-4">
-                  <img src="/favicon.svg" alt="Vilakku" className="w-10 h-10 mx-auto mb-2" />
+                  <img src="/favicon.png" alt="Sree Bhagavathy" className="w-12 h-12 rounded-full border-2 border-amber-300 object-cover mx-auto mb-2 shadow-xs" />
                   <h3 className="font-serif font-bold text-xl text-slate-900">
                     {lang === 'ml' ? templeInfo.nameMl : templeInfo.name}
                   </h3>

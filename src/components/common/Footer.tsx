@@ -50,8 +50,8 @@ export const Footer: React.FC<FooterProps> = ({
           {/* Column 1: Temple Identity */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-2xl bg-amber-50 border border-amber-200/80 flex items-center justify-center p-2 shadow-xs">
-                <img src="/favicon.svg" alt="Vilakku" className="w-full h-full object-contain" />
+              <div className="w-12 h-12 rounded-full overflow-hidden bg-amber-50 border-2 border-amber-300 flex items-center justify-center p-0.5 shadow-xs">
+                <img src="/favicon.png" alt="Sree Bhagavathy" className="w-full h-full object-cover rounded-full" />
               </div>
               <div>
                 <h3 className="font-serif font-bold text-slate-900 text-lg leading-snug">
