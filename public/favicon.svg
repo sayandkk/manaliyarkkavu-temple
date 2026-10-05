@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Nilavilakku Traditional Lamp Icon -->
+  <defs>
+    <radialGradient id="flameGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff7b2"/>
+      <stop offset="35%" stop-color="#ffb834"/>
+      <stop offset="80%" stop-color="#f24e1e"/>
+      <stop offset="100%" stop-color="#ab1a00" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf3a7"/>
+      <stop offset="30%" stop-color="#e6b843"/>
+      <stop offset="70%" stop-color="#b8860b"/>
+      <stop offset="100%" stop-color="#8a5a00"/>
+    </linearGradient>
+  </defs>
+  <!-- Base Plate -->
+  <ellipse cx="50" cy="88" rx="36" ry="7" fill="url(#goldGrad)" stroke="#744200" stroke-width="1.5"/>
+  <ellipse cx="50" cy="85" rx="30" ry="5" fill="url(#goldGrad)"/>
+  <!-- Central Pillar -->
+  <path d="M46 85 L46 62 Q50 64 54 62 L54 85 Z" fill="url(#goldGrad)" stroke="#744200" stroke-width="1"/>
+  <!-- Middle Ring / Pot -->
+  <circle cx="50" cy="60" r="7" fill="url(#goldGrad)" stroke="#744200" stroke-width="1"/>
+  <!-- Upper Pillar -->
+  <path d="M47 54 L48 42 L52 42 L53 54 Z" fill="url(#goldGrad)"/>
+  <!-- Oil Dish (Thattu) -->
+  <ellipse cx="50" cy="40" rx="32" ry="6" fill="url(#goldGrad)" stroke="#744200" stroke-width="1.5"/>
+  <ellipse cx="50" cy="38" rx="28" ry="4" fill="#a5710e"/>
+  <!-- Top Finial / Thiri holder -->
+  <path d="M48 37 L50 24 L52 37 Z" fill="url(#goldGrad)"/>
+  <circle cx="50" cy="22" r="3.5" fill="url(#goldGrad)"/>
+  <!-- Central Flame -->
+  <path d="M50 7 Q45 15 50 20 Q55 15 50 7 Z" fill="url(#flameGrad)">
+    <animate attributeName="d" values="M50 7 Q45 15 50 20 Q55 15 50 7 Z;M50 5 Q43 14 50 20 Q57 14 50 5 Z;M50 7 Q45 15 50 20 Q55 15 50 7 Z" dur="1.8s" repeatCount="indefinite"/>
+  </path>
+  <!-- Side Flame Left -->
+  <path d="M24 36 Q20 31 24 26 Q28 31 24 36 Z" fill="url(#flameGrad)">
+    <animate attributeName="d" values="M24 36 Q20 31 24 26 Q28 31 24 36 Z;M24 36 Q22 30 24 24 Q26 30 24 36 Z;M24 36 Q20 31 24 26 Q28 31 24 36 Z" dur="2.1s" repeatCount="indefinite"/>
+  </path>
+  <!-- Side Flame Right -->
+  <path d="M76 36 Q72 31 76 26 Q80 31 76 36 Z" fill="url(#flameGrad)">
+    <animate attributeName="d" values="M76 36 Q72 31 76 26 Q80 31 76 36 Z;M76 36 Q74 30 76 24 Q78 30 76 36 Z;M76 36 Q72 31 76 26 Q80 31 76 36 Z" dur="2.3s" repeatCount="indefinite"/>
+  </path>
+</svg>
